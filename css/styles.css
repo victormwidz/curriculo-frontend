@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.escondido {
+    display: none;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    background-color: #01353C;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu img {
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #1A5E63;
+    margin-bottom: 20px;
+}
+
+.menu li {
+    color: #01353C;
+    font-size: 14px;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: none;  
+    list-style: none;  
+}
+
+.menu a:hover {
+    font-weight: bold;
+}
+
+.conteudo {
+    width: 70%;
+    height: 100vh;
+    background-color: #F0F3BD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.titulo h1 {
+    font-size: 50px;
+    font-family: "Raleway", Helvetica, sans-serif;
+    letter-spacing: 0.175em;
+    text-transform: uppercase;
+}
+
+.titulo p {
+    font-size: 15px;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    
+} 
+
+.texto {
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.recado {
+    margin-top: 100px;
+    padding: 15px;
+    background-color: #FBFCEE;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Raleway", Helvetica, sans-serif;
+
+}
+
+.table {
+    font-size: 15px;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.input-login {
+    width: 48%;
+    border: 1px solid gray;
+    height: 35px;
+    padding: 25px;
+    justify-content: center;
+}
+
+.form-login .botao-input {
+    width: 100%;
+    background-color: rgb(80, 218, 0) ;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.form-recados .botao-salvar {
+    background-color: rgb(81, 0, 211);
+    color: white;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 30px;
+}
+
+.experiencias {
+    font-family: Arial;
+    color: black;
+}
+
+.experiencias h3 {
+    margin-top: 20px;
+}
+
+.experiencias ul {
+    margin-top: 10px;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.conhecimentos h1 {
+    font-size: 50px;
+    color: #01353C;
+}
+
+.objetivos {
+    font-family: Arial;
+    color: #01353C; 
+}
+
+.objetivos h1 {
+    font-family: Arial;
+    font-size: 50px; 
+}
+
+.objetivos p {
+    font-size: 15px;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.contato {
+    font-size: 50px;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+.contato p {
+    font-size: 15px;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+
+
+

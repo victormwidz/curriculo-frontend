@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Victor Matheus Widz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <img src="https://mir-s3-cdn-cf.behance.net/user/276/5d07b3204648809.5ff8bff76d538.jpg" alt="minhafoto"/>
+            <nav>
+                <ul>
+                    <li><a class="btn-link negrito"  href="javascript:void(0);">Sobre</a></li>
+                    <li><a class="btn-link"  href="javascript:void(0);">Conhecimentos</a></li>
+                    <li><a class="btn-link"  href="javascript:void(0);">Objetivos</a></li>
+                    <li><a class="btn-link"  href="javascript:void(0);">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="conteudo">
+            <section class="sobre">
+                <div class="titulo">
+                    <h1>Victor Matheus Widz</h1>
+                    <p>Motivado e proativo, em constante desenvolvimento de minhas habilidades e em busca de crescimento pessoal e profissional.</p>
+                </div>
+                <div class="recado">
+                    <h1> Deixe seu recado aqui!</h1>
+                    <form class="form-recados d-flex flex- justify-content-between mb-4" method="post" onsubmit="portfolio.inserirRecado(event)">
+                        <input id="register-descrition" type="text" class="register-descrition rounded-1" placeholder="Seu Nome" required />
+                        <input id="register-details" type="text" class="register-details rounded-1" placeholder="Seu recado" required />
+                        <button id="add-item" type="submit" class="rounded-1 botao-salvar">Salvar</button>
+                    </form>
+                    <table class="table" style="width: 400px;">
+                      <thead>
+                        <tr>
+                          <th scope="col" width="50">#</th>
+                          <th scope="col" width="150">Nome</th>
+                          <th scope="col" width="200">Comentário</th>
+                        </tr>
+                      </thead>
+                      <tbody id="table-body"></tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="sobre escondido">
+                <h1>Victor Matheus Widz</h1>>
+            </section>
+            <section class="conhecimentos escondido">
+                <h1>Minhas experiências</h1>
+                <div class="experiencias">
+                    <h3>Impar, Social Media</h3>
+                    <h6>Janeiro de 2020 até Fevereiro de 2022</h6>  
+                    <ul>
+                        <li>Gestão de projetos;</li>
+                        <li>Desenvolvimento de textos publicitários para redes sociais;</li>
+                        <li>Planejamento e produção de conteúdo (edição de imagens e vídeos e criação de peças gráficas) para diversificados clientes em redes sociais;</li>
+                        <li>Atendimento à clientes;</li>
+                        <li>Gestão de mídias sociais.</li>
+                    </ul>
+                    <h3>Servcouros Benef. de Couros, Assistente financeiro</h3>
+                    <h6>Novembro de 2017 - Janeiro de 2020 </h6>  
+                    <ul>
+                        <li>Responsável pelo contas a pagar e receber, fluxos de caixa e DRE</li>
+                        <li>Responsável pelo faturamento;</li>
+                        <li>Planejamento e produção de conteúdo (edição de imagens e vídeos e criação de peças gráficas) para diversificados clientes em redes sociais;</li>
+                        <li>Negociações com fornecedores.</li>
+                    </ul>  
+                    <h3>Sicoob Ecocredi, Assistente de Atendimento</h3>
+                    <h6>Dezembro de 2013 - Fevereiro de 2016 </h6>  
+                    <ul>
+                        <li>Atendimento aos associados (vendas de produtos);</li>
+                        <li>Operações de retaguarda (desconto de duplicatas e cheques, relatórios, atividades de cobrança);</li>
+                        <li>Instalação e suporte de sistema.</li>
+                    </ul>  
+                </div>
+            </section>
+            <section class="objetivos escondido">
+                <div class="objetivos">
+                    <h1>Meus objetivos</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum fugiat pariatur eos consectetur minima alias repellendus assumenda? Laudantium quisquam nam aspernatur numquam odio corrupti molestias, quas voluptatum nihil neque impedit?</p>
+                </div>
+            </section>
+            <section class="contato escondido">
+                <div class="contato">
+                    <h1>Quer entrar em contato?</h1>
+                    <p>Preencha o formulário abaixo</p>
+                </div>
+                <div class="form-contato">
+                    <form class="formulario-contato d-flex flex- justify-content-between mb-4" method="post" onsubmit="contato.submitContato(event)">
+                        <input id="contato-nome" type="text" class="contato-nome rounded-1" placeholder="Seu Nome" required />
+                        <input id="contato-telefone" type="text" class="contato-telefone rounded-1" placeholder="Seu telefone" required />
+                        <input id="contato-email" type="text" class="contato-email rounded-1" placeholder="Seu e-mail" required />
+                        <button id="add-contato" type="submit" class="rounded-1 botao-salvar">Enviar</button>
+                    </form>
+                    <div class="mensagem-successo escondido">
+                        <p>Enviado com sucesso!</p>
+                    </div>
+                </div>
+            </section>
+    </div>
+    <script src="./js/scripts.js"></script>  
+</body>
+</html>
